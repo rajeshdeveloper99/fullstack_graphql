@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-
+//db connection
 const connectDB = async () => {
   try {
     const connection = await mongoose.connect('mongodb+srv://rajeshkumar:Techno@5821#@cluster0.yxxjj5z.mongodb.net/', {
